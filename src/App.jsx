@@ -8,6 +8,7 @@ import CategorySection from "./components/products/CategorySection";
 import CartDrawer from "./components/cart/CartDrawer";
 import CartFAB from "./components/cart/CartFAB";
 import { categories, products } from "./data/products";
+import GoogleReviews from "./components/home/GoogleReviews";
 
 function AppInner() {
   const [cartOpen, setCartOpen] = useState(false);
@@ -77,7 +78,7 @@ function AppInner() {
           </div>
         ))}
       </main>
-
+      <GoogleReviews />
       <Footer />
 
       {/* Cart */}

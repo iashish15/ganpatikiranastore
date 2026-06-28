@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-gray-400">
               <div className="flex items-center gap-2.5">
                 <MapPin className="w-4 h-4 text-saffron-500 flex-shrink-0" />
-                <span>Near Temple Chowk, Mau, Uttar Pradesh</span>
+                <span>Maryadpur, Mau, Uttar Pradesh</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-saffron-500 flex-shrink-0" />
